@@ -1,0 +1,48 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "expo": "^23.0.4",
+    "frisbee": "^2.0.5",
+    "geolib": "^2.0.24",
+    "prop-types": "^15.6.1",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-cache": "^1.1.1",
+    "react-native-country-picker-modal": "^0.5.1",
+    "react-native-elements": "^0.18.5",
+    "react-native-form": "^2.1.2",
+    "react-native-fs": "^2.10.14",
+    "react-native-google-places": "^2.5.0",
+    "react-native-image-picker": "^0.26.10",
+    "react-native-image-resizer": "^1.0.0",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-maps": "^0.21.0",
+    "react-native-permissions": "^1.1.1",
+    "react-native-photo-upload": "^1.2.0",
+    "react-native-swiper": "^1.5.13",
+    "react-navigation": "^1.0.0-beta.23",
+    "react-navigation-redux-debouncer": "0.0.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "tcomb-form-native": "^0.6.11",
+    "tipsi-stripe": "^5.2.4"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
